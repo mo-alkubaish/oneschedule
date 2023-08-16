@@ -44,7 +44,7 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "CI=false react-scripts build",
     "eject": "react-scripts eject",
     "lint": "yarn run eslint .",
@@ -91,7 +91,7 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   },
-  "engines" : { 
-    "node" : ">=16.0.0 <17.0.0"
+  "engines": {
+    "node": "18.17.1"
   }
 }

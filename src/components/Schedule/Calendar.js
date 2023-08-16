@@ -44,7 +44,7 @@ const Calendar = ({selectedCourses}) => {
     initialView="timeGridWeek"
     events = {events}
     slotMinTime = "07:00"
-    slotMaxTime = "21:00"
+    slotMaxTime = "18:00"
     scrollTime = "09:00"
     hiddenDays = {[0]}
     expandRows = {true}
